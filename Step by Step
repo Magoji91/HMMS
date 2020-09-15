@@ -2,3 +2,6 @@ modelo_granatum_empresarial <- read.csv2("C:/Users/smsanda/Downloads/modelo_gran
 View(modelo_granatum_empresarial)
 df <- modelo_granatum_empresarial
 summary(df) # Description about the variables
+df1 = df %>% select(O, P, PL, AND)
+
+write.csv(df1, file = "df1.csv")
