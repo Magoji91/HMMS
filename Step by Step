@@ -1,0 +1,4 @@
+modelo_granatum_empresarial <- read.csv2("C:/Users/smsanda/Downloads/modelo_granatum_empresarial.csv")
+View(modelo_granatum_empresarial)
+df <- modelo_granatum_empresarial
+summary(df) # Description about the variables
